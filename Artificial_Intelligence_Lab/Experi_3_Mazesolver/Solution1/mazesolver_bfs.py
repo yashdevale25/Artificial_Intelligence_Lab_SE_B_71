@@ -11,7 +11,7 @@ def bfs(maze, start, end):
         if (x, y) == end:
             return path  # Return the path if end is reached
 
-        for dx, dy in [(0,1), (1,0), (-1,0), (0,-1)]:  # Possible movements
+        for dx, dy in [(1,0), (0,1), (-1,0), (0,-1)]:  # Possible movements
             next_x, next_y = x + dx, y + dy
             if maze[next_x][next_y] != '#' and (next_x, next_y) not in path:
                 new_path = list(path)
