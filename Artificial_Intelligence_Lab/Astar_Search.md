@@ -1,6 +1,6 @@
 # Introduction to A* Search Algorithm
 
-- *A** *Search* is one of the most widely used informed search algorithms. 
+- **A* Search** is one of the most widely used informed search algorithms. 
 
 - It combines the strengths of both uniform-cost search and Greedy Best-First Search by using a composite cost function *f(n)=g(n)+h(n)*
 
