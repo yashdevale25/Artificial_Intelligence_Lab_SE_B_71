@@ -6,6 +6,6 @@
 
 where
 
-- g(n) : g(n) is the exact cost from the start node to node n.
+g(n) : g(n) is the exact cost from the start node to node n.
 
-- h(n) : h(n) is the heuristic estimate of the cost from n to the goal.
+h(n) : h(n) is the heuristic estimate of the cost from n to the goal.
